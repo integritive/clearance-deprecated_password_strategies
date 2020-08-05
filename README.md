@@ -9,6 +9,12 @@ This gem contains the three password strategies deprecated in Clearance 1.10.0:
 These strategies were removed from Clearance because we no longer use or
 maintain them.
 
+## Integritive Overrides
+
+This gem was forked to add support for sites that utilized SHA1 "salting and
+stretching" to improve password security. The SHA1 password strategy has new
+methods for handling these types of logins.
+
 ## Usage
 
 Add this line to your application's Gemfile:
